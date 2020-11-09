@@ -34,7 +34,8 @@ Rscript /home/ciro/scripts/ab_capture/summary.R -c /home/ciro/large/amg319/resul
 Jobs will be created and you'll need to wait a few minutes.
 
 ## Quality control
-1. Mind how you indicate the metadata.<sup>2
+1. Mind how you indicate the metadata.<sup>2</sup>
+
 It takes about 5 minutes with 90K cells with 20gb and 1 node/1 processor.
 ```
 Rscript /home/ciro/scripts/clustering/qc.R -y /home/ciro/amg319/scripts/amgen_SiEs08_qc.yaml
