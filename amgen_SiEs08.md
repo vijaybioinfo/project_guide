@@ -14,6 +14,7 @@ You can actually either use mkfastq or bcl2fastq.<sup>1
 1. Prepare IEM sample sheet (carefully choose the names).
 
 ## Pre-processing data with Cell Ranger
+We have a [wrapper](https://github.com/vijaybioinfo/cellranger_wrappeR) for Cell Ranger if you don't want to prepare a script for each of your samples.
 1. Prepare feature reference and aggregation files.
 2. Check you're taking the right reference genome.
 ```
@@ -23,6 +24,7 @@ cellranger_wrappeR -y /home/ciro/amg319/scripts/amgen_SiEs08_cellranger_NV035.ya
 Some jobs will be created and you will need to wait.<sup>1
 
 ## Demultiplexing donors/subjects
+You will make us of the [ab_capture](https://github.com/vijaybioinfo/ab_capture) scripts.
 1. Have the donor metadata if you want to include it in the single-cell metadata. Up yo you if you want it in the object or if you'll make use of it after clustering.
 2. Check the hashtag structure is correct (`Rscript /home/ciro/scripts/ab_capture/summary.R -h`)
 ```
