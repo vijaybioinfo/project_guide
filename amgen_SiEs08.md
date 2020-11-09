@@ -36,8 +36,8 @@ Rscript /home/ciro/scripts/ab_capture/summary.R -c /home/ciro/large/amg319/resul
 Jobs will be created and you'll need to wait a few minutes.
 
 ## Quality control
-There's a script for this [here](https://github.com/vijaybioinfo/quality_control).
-1. Mind how you indicate the metadata.<sup>2</sup>
+There's a script for this [here](https://github.com/vijaybioinfo/quality_control).<sup>2</sup>
+1. Mind how you indicate the metadata.
 
 It takes about 5 minutes with 90K cells with 20gb and 1 node/1 processor.
 ```
